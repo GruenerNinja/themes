@@ -95,6 +95,10 @@ body,
     content: none;
 }
 
+.stack_ae6a65{
+    overflow: show;
+}
+
 html.theme-light .app_a01fb1::after {
     content: "SoftX is not build for Lightmode.\aPlease switch to Dark mode in your Discord Appearance Settings.";
     line-height: 1.5;
