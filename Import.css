@@ -14,7 +14,8 @@
 }
 
 :root {
-    --backgroundColor: black;
+    --version: "TMC023";
+    --backgroundColor: rgba(44, 44, 44, 0.62);
     --hue: 0deg;
     --saturation: 0%;
     --lightness: 10%;
