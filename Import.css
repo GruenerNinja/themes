@@ -4181,7 +4181,11 @@ body #ChannelsPreview::before {
 /*Neutron 8*/
 .appMount_ea7e65,
 body {
-    background-color: var(--backgroundColor) !important
+    background-color: var(--backgroundColor) !important;
+    background-image: var(--background-image);
+    background-blend-mode: multiply;
+    background-size: cover;
+    filter: blur(1px)
 }
 
 .bg_d4b6c5 {
@@ -4191,7 +4195,7 @@ body {
     background-size: var(--backgroundSize);
     background-image: var(--backgroundImage);
     opacity: var(--backgroundOpacity);
-    filter: blur(var(--backgroundBlur))
+    backdrop-filter: blur(var(--backgroundBlur))
 }
 
 .members_cbd271,
@@ -4896,6 +4900,13 @@ body {
     color: #e6e6e6;
     border-bottom-width: 2px;
     border-style: solid;
+    border-image: linear-gradient(to right, transparent, var(--themeColor1), var(--themeColor2), transparent) 1
+}
+.membersGroup_c8ffbb{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: var(--themeColor1);
     border-image: linear-gradient(to right, transparent, var(--themeColor1), var(--themeColor2), transparent) 1
 }
 
